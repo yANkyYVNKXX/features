@@ -1,13 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-
-const App = () => {
-    return (
-        <div>
-            <h1>fdasfdsaf</h1>
-        </div>
-    );
-};
-
-ReactDOM.createRoot(document.getElementById('root')!).render(<App />)
-
+// import React from 'react';
+// import { hydrateRoot } from 'react-dom/client';
+// import MobileDetect from 'mobile-detect';
+//
+// import App from './components/App.jsx';
+//
+// const md = new MobileDetect(window.navigator.userAgent);
+// let fallbackScreenClass = 'xxl';
+// if (md.phone() !== null) fallbackScreenClass = 'xs';
+// if (md.tablet() !== null) fallbackScreenClass = 'md';
+//
+// const container = document.getElementById('app');
+// hydrateRoot(container, <App fallbackScreenClass={fallbackScreenClass} />);
